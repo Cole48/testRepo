@@ -1,2 +1,18 @@
 #!/bin/bash
-echo hello
+clear
+
+echo "you realize your too bored."
+sleep .5
+echo "do you: "
+sleep .5 
+echo "[1] your delete this git."
+sleep .5
+echo "[2] you keep playing."
+read -p "choose your path: " enter
+case $enter in
+1) esac
+  exit ;;
+2) nice choice, not that you had one... ;
+
+esac
+exit
